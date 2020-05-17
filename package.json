@@ -4,7 +4,9 @@
   "description": "Demo Automation Project with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run": "./node_modules/.bin/cypress run",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:tags": "./node_modules/.bin/cypress-tags run"
   },
   "keywords": [],
   "author": "Soraia Reis Fernandes",
