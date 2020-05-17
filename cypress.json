@@ -1,4 +1,4 @@
 {
     "baseUrl": "https://soraia.herokuapp.com",
-    "testFiles": "**/*.spec.js"
+    "testFiles": "**/*.feature"
 }
