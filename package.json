@@ -1,12 +1,16 @@
 {
   "name": "demo-cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo Automation Project with Cypress",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Soraia Reis Fernandes",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soraiareis/demo-cypress.git"
+  }
 }
