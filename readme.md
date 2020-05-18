@@ -44,3 +44,24 @@ You can also change the `baseURL` by setting the `CYPRESS_BASE_URL` environment 
 ```
 CYPRESS_BASE_URL=http://the-internet.herokuapp.com npm run cy:run
 ```
+
+## Running Tests using Docker
+
+A Docker Compose file was created for this project to allow an execution of all tests in each of the following browsers:
+- Electron
+- Chrome
+- Firefox
+
+You can execute the tests using docker with the command below. 
+```
+docker-compose up
+```
+
+You also have the ability to run only in a specific browser passing the browser as an argument like the command below:
+```
+docker-compose up chrome
+docker-compose up firefox
+docker-compose up electron
+
+docker-compose up electron chrome
+```
